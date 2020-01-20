@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="output"
+        android:title="@string/output">
+        <SwitchPreference
+            android:contentDescription="@string/audio_description"
+            android:defaultValue="true"
+            android:key="audio"
+            android:summaryOff="deaktiviert"
+            android:summaryOn="aktiviert"
+            android:title="@string/audio" />
+
+        <SwitchPreference
+            android:contentDescription="@string/vibration_description"
+            android:defaultValue="true"
+            android:key="vibration"
+            android:summaryOff="deaktiviert"
+            android:summaryOn="aktiviert"
+            android:title="@string/vibration" />
+
+        <SwitchPreference
+            android:contentDescription="@string/read_instructions_description"
+            android:defaultValue="true"
+            android:key="read_instructions"
+            android:summaryOff="deaktiviert"
+            android:summaryOn="aktiviert"
+            android:title="@string/read_instructions" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="display"
+        android:title="@string/display">
+
+        <SwitchPreference
+            android:contentDescription="@string/preview_description"
+            android:defaultValue="true"
+            android:key="preview"
+            android:summaryOff="deaktiviert"
+            android:summaryOn="aktiviert"
+            android:title="@string/preview" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="extended_settings"
+        android:title="@string/extended_settings">
+
+        <SwitchPreference
+            android:contentDescription="@string/tilt_pause_inference_description"
+            android:defaultValue="false"
+            android:key="tilt_pause_inference"
+            android:summaryOff="deaktiviert"
+            android:summaryOn="aktiviert"
+            android:title="@string/tilt_pause_inference" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

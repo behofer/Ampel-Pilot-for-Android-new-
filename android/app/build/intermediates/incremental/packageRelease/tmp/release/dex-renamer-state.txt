@@ -1,0 +1,4 @@
+#Tue Sep 24 01:29:44 CEST 2019
+base.0=/home/master/Desktop/B.Sc. Ampel-Pilot_Matthias-Deitermann_Appendix_23September2019/App/android/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

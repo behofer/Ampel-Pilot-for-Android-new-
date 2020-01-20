@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2016 The TensorFlow Authors. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="safety_instructions">"Benutzen Sie diese App nur als zusätzliche Hilfe! Verlassen Sie sich stets auf ihre eigene Wahrnehmung!"</string>
+
+    <!-- Strings related to Settings -->
+    <string name="action_settings">Einstellungen</string>
+    <string name="output">Ausgabe</string>
+    <string name="display">Anzeige</string>
+    <string name="audio">Audio</string>
+    <string name="audio_description">Aktiviert die Sprachausgabe über die aktuelle Ampelphase.</string>
+    <string name="vibration">Vibration</string>
+    <string name="vibration_description">Aktiviert die Vibrationsausgabe über die aktuelle Ampelphase.</string>
+    <string name="preview">Kamera Vorschau</string>
+    <string name="preview_description">Aktiviert die Kameravorschau, ist diese deaktiviert wird die jeweilige Ampelphase mit rotem oder grünem Display dargestellt. Ein graues Display steht für keine erkannte Ampelphase.</string>
+    <string name="read_instructions">Instruktionen vorlesen</string>
+    <string name="read_instructions_description">Aktiviert die Sprachinstruktion bei Start der App.</string>
+    <string name="invert_colors">Farben invertieren</string>
+    <string name="invert_colors_description">Diese Funktion ist für Nutzer der Android Funktion "Farben invertieren". Ist diese aktiviert wird die Farbanzeige über das Display angepasst.</string>
+    <string name="extended_settings">Erweiterte Einstellungen</string>
+    <string name="tilt_pause_inference">Detektion pausieren</string>
+    <string name="tilt_pause_inference_description">Diese Funktion pausiert die App wenn Sie das Smartphone nicht vertikal halten.</string>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+</resources>
