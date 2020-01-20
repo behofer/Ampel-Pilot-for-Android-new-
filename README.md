@@ -10,7 +10,7 @@ A object detection application for android devices to detect pedestrian traffic 
 ## Application
 A on TensorFlowLite OD demo app based implementation of a object detection model for pedestrian traffic light phases. Modified to inform the user about the currently stable detection of a light phase via auditive and tactile output. The app reached 11.82 FPS on a OnePlus6.
 
-![alt text](https://github.com/madiyasi/Ampel-Pilot/blob/master/images/Screenshot_OnePLus_live.png)
+![alt text](https://github.com/madiyasi/Ampel-Pilot/blob/master/Screenshot_OnePLus_live.png)
 
 ## Application Metrics 
 
